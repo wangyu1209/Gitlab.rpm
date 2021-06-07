@@ -1,3 +1,4 @@
+#提交代码到github上
 echo "# Gitlab.rpm" >> README.md
 git init
 git add README.md
@@ -42,6 +43,3 @@ git push -u origin master
 下载rpm包后使用sudo rpm -ivh 包名.rpm进行安装
 
 运行git lfs install，如果显示Git LFS initialized说明安装成功
-————————————————
-版权声明：本文为CSDN博主「Michaelliu_dev」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/liuxiaoheng1992/article/details/83183806
