@@ -11,6 +11,10 @@ git remote add origin https://github.com/wangyu1209/Gitlab.rpm.git
 git push -u origin main
 
 
+#远程删除仓库指定文件
+git rm 文件名
+git commit -m "删除某某文件"
+git push -u origin main
 
 完全卸载gitlab
 gitlab-ctl stop
